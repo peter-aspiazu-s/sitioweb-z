@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+.ayuda {
+	width: 700px;
+	background: rgb(94, 192, 167);
+	padding: 100px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: rgb(134, 187, 162);
+	box-shadow: 7px 13px 37px #000;
+	background: url("Imagenes/cuadro.png")no-repeat center top;;
+
+
+}
+
+body {
+	background: linear-gradient(to bottom right, #1f4037, #99f2c8);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  	overflow: hidden;
+  	display: flex;
+  	margin: 0;
+  	padding: 0;
+
+}
+
+.ayuda h4 {
+
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: gray;
+}
+
+.controles{
+
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid green;
+	font-family: 'calibri' ;
+	font-size: 18px;
+
+}
+
+
+.ayuda a {
+
+	color: rgb(96, 219, 199);
+	text-decoration: none;
+}
+
+
+.ayuda a:hover {
+
+	color: white;
+	text-decoration: underline;
+}
+
+
+.ayuda .boton-ayuda {
+
+	width: 100%;
+	background: green;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
